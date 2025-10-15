@@ -1,0 +1,144 @@
+<!-- 
+  The <!DOCTYPE html> declaration tells the browser that this is an HTML5 document.
+  It must always be the first line in any HTML file.
+-->
+<!DOCTYPE html> 
+
+<!-- The <html> tag wraps all the content on the webpage -->
+<html>
+
+<head>
+    <!-- 
+      The <meta charset="UTF-8"> defines the character encoding for the webpage.
+      UTF-8 supports most characters and languages.
+    -->
+    <meta charset="UTF-8">
+
+    <!-- 
+      This description is used by search engines when displaying the site in results.
+      It helps improve SEO (Search Engine Optimization).
+    -->
+    <meta name="description" content="I am a web developer and this is my portfolio">
+
+    <!-- 
+      The keywords tell search engines what topics your website is about.
+    -->
+    <meta name="keywords" content="web,html,php,css">
+
+    <!-- 
+      The viewport tag ensures your site is responsive on mobile devices.
+      It makes the page width match the device screen.
+    -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+    <!-- 
+      This tells search engines that they can index this page and follow its links.
+    -->
+    <meta name="robots" content="index, follow">
+
+    <!-- 
+      The <title> tag sets the text that appears in the browser tab or search results.
+    -->
+    <title>Shaymaa Mohammed</title>
+</head>
+
+<!-- The <body> tag holds all the visible content on the page -->
+<body>
+
+    <!-- <h1> is the main heading of the page (only one <h1> per page is recommended) -->
+    <h1>Hello, I’m Shaymaa</h1>
+
+    <!-- <p> defines a paragraph. <strong> makes text bold to highlight important words -->
+    <p>Aspiring <strong>Web Developer</strong></p>
+
+    <!-- 
+      This paragraph shows examples of:
+      <em> italic (emphasized text)
+      <del> deleted text (strikethrough)
+      <ins> inserted text (underlined or added)
+    -->
+    <p>
+        I enjoy <em>building websites</em> and learning new technologies.  
+        <del>At first, coding felt impossible,</del>  
+        <ins>but now I see it as a fun challenge!</ins>
+    </p>
+    
+    <!-- 
+      The <img> tag displays an image.
+      "src" specifies the image path, "alt" gives alternative text if image doesn’t load.
+      "width" sets the image size.
+    -->
+    <img src="shaymaa.jpg" alt="Profile Picture" width="200">
+    
+    <!-- A second-level heading -->
+    <h2>Find Me Online</h2>
+
+    <!-- 
+      The <a> tag creates a hyperlink.
+      "href" is the link destination.
+      "target='_blank'" opens the link in a new tab.
+      | symbols here are just used to separate links visually.
+    -->
+    <a href="https://github.com/" target="_blank">GitHub</a> | 
+    <a href="www.linkedin.com/in/">LinkedIn</a> |
+    <a href="https://twitter.com/">Twitter</a>
+    <br> <!-- <br> adds a line break -->
+
+    <!-- A heading for the skills section -->
+    <h2>My Skills</h2>
+      
+    <!-- 
+      <ul> = unordered list (bullets)
+      <li> = list item
+      You can nest lists to show sub-categories (like JavaScript frameworks).
+    -->
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript
+        <ul>
+          <li>Angular</li>
+          <li>Reactjs</li>
+          <li>Vuejs</li>
+        </ul>
+      </li>
+      <li>PHP</li>
+      <li>Python</li>
+      <li>Problem Solving</li>
+    </ul>
+
+    <!-- <h2> introduces the projects section -->
+    <h2>Projects</h2>
+
+    <!-- 
+      <ol> = ordered list (numbered items)
+      type="I" means the list uses Roman numerals (I, II, III...).
+    -->
+    <ol type="I">
+      <li>Personal Blog using HTML & CSS</li>
+      <li>Calculator App with JavaScript</li>
+      <li>Portfolio Website</li>
+    </ol>
+
+    <!-- 
+      The following part is a Definition List.
+      It explains terms and their meanings (like a mini dictionary).
+      <dl> = Definition List
+      <dt> = Definition Term
+      <dd> = Definition Description (explains the term)
+    -->
+    <h2>Web Development Concepts</h2>
+    <dl>
+      <!-- <dt> represents a word or concept -->
+      <dt>HTML</dt>
+      <!-- <dd> describes or explains that word -->
+      <dd>Builds the structure of the website</dd>
+
+      <dt>CSS</dt>
+      <dd>Adds design and styling to the website</dd>
+
+      <dt>JavaScript</dt>
+      <dd>Adds interactivity and dynamic features to web pages</dd>
+    </dl>
+    
+</body>
+</html>
