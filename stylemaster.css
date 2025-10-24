@@ -1,0 +1,28 @@
+/*selector{
+    property:value;
+    property:value;
+
+}*/
+    
+    h2{
+        text-decoration: underline dashed;
+        font-size:25px ;
+        font-weight: 900;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        font-variant: initial;
+        color:rgba(45, 29, 188, 0.7);
+    }
+
+
+    ul{
+      color:red;
+    }
+
+    #id{
+      color:aquamarine;
+    }
+
+    .cls2{
+      color:aquamarine;
+    }
